@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Nike-font';
+    src: url(fonts/Futura-Std-Book.ttf);
+}
+.default-padding{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.list-down{
+    display: flex;
+    flex-direction: column;
+}
+.light{
+    font-weight: light;
+    padding-bottom: 1rem;
+}
+.bold{
+    font-weight: bold;
+}
+.btn{
+    border: solid black .1rem;
+    background-color: black;
+    color: white;
+    border-radius: 100rem;
+}
+.btn:hover{
+    background-color: rgb(114, 114, 114);
+}
+.btn:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+*{
+    font-family: 'Nike-font', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #7e7e7e;
+}
+p{
+    font-size: smaller;
+}
+
+ul{
+    list-style-type: none;
+    font-family: "NikeBold", sans-serif;
+    display: inline;
+}
+li{
+    display: inline;
+    margin-left: .5rem;
+}
+.nav01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+.nav02{
+    display: flex;
+    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.nav02-pages-logo{
+    padding-left: 15rem;
+}
+.Searchbar-li{
+    border: solid 1px black;
+    border-radius: 50rem;
+    padding: .1rem .3rem;
+    margin: .5rem .5em ;
+}
+input{
+    border: solid 2px black;
+}
+.Search-bar{
+    border: none;
+    font-size: .9rem;
+    padding: .1rem .3rem .3rem .3rem;
+    margin: .2rem;;
+}
+.nav-search-and-other-list{
+    display: flex;
+    align-items: center;
+}
+.nav02-nike-logo img{
+    width: 3rem;
+}
+.nav03-nike-app{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav03-nike-app{
+    padding: 1rem;
+}
+.nav03-main-text{
+    font-weight: 600;
+}
+.nav03-sec-text{
+    font-weight: 300;
+}
+.video-section{
+
+    /* margin: 1rem; */
+}
+.video-section video{
+    height: auto;
+    width:100% ;
+}
+.video-section .video-section-text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+.video-section p{
+    padding: .5rem 12rem .5rem 13rem;
+}
+.video-section-button{  
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+}
+.Feature-section-products{
+    display: flex;
+}
+.Feature-section-products div{
+    height: auto;
+    width: 50%;
+    display: flex;
+}
+.Feature-section-products .Feature-img{
+    width: 100%;
+}
+ .feature-products01 , .feature-products02{
+   display: flex;
+   position: relative;
+   align-items:flex-end;
+   margin: 0;
+}
+.product01-textarea01 ,.product02-textarea02{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* border: solid black 2px; */
+    align-items:baseline;
+}
+.Feature-section-products button{
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: .6rem;
+
+}
+.sport-products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sport-product-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.sport-products01 , .sport-products02{
+    display: flex;
+    position: relative;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+.sports-btn .btn{
+ margin: 19%;
+ padding: 5%;
+ width: 7rem;
+}
+.product-section{
+    margin: 1rem;
+    height: auto;
+    width: 100%;
+}
+.sport-textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.sport-textarea h1{
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+}
+.sport-textarea p{
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+}
+.sport-textarea .btn{
+    padding: .5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+.trending-products img{
+    height: auto;
+    width: 100%;
+}
+.dontmiss-section img{
+    height: auto;
+    width: 100%;
+}
+.dontmiss-textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+.dontmiss-textarea p{
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+.dontmiss-textarea h1{
+    padding-top: .1rem;
+    padding-bottom: 1.4rem;
+}
+.dontmiss-textarea .btn{
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+.more-nike-products .btn{
+    background-color: white;
+    border: solid white 1px;
+    color: black;
+}
+.more-nike-products .btn:hover{
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 1px;
+    color: rgb(255, 255, 255);
+}
+.more-nike-products .btn:active{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 1px;
+    color: rgb(0, 0, 0);
+}
+.list-of-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 15rem 5rem 15rem;
+}
+.List-head{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.List-normal , .List-normal a{
+    color: #7e7e7e !important; 
+}
+.list-of-items li{
+    padding-bottom: .5rem;
+}
+.bottom-navbar{
+    background-color: #111111;
+    color: white;
+    padding: 2rem 15rem .5rem 15rem;
+}
+.bottom-navbar a{
+    color: white;
+}
+.bottom-navbar a:hover{
+    color: rgb(153, 151, 151);
+}
+.top-section-bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top-section-bottom-nav .lists{
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    font-size: .8rem;
+}
+.lists ul{
+    padding-right: 4rem;
+}
+.lists li{
+    font-weight: lighter;
+}
+.lists .List-head{
+    font-weight: bold;
+}
+.bottom-section-bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    font-weight: lighter;
+}
+.lists .bold{
+    font-weight: bold;
+    padding-bottom: .8rem;
+}
